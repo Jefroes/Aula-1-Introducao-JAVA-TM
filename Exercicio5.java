@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Exercicio5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Quantos números naturais quer exibir");
+        System.out.println("Quantos números naturais quer exibir?");
         int nQtd = sc.nextInt();
         System.out.println("Quantos dígitos mínimos ele deve possuir?");
         int qtdDigitos = sc.nextInt();
-        System.out.println("Qual valor do digito final?");
+        System.out.println("Qual valor do digito final");
         int nTermina = sc.nextInt();
 
         int qtd = 0, k= 0;
